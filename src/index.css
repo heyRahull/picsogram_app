@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+  position: fixed !important;
+  top: 0 ;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header__image {
+  width: 100px;
+  height: 30px;
+  object-fit: contain;
+}
+.ModalComp__image {
+  width: 100px;
+  height: 30px;
+  object-fit: contain;
+}
+.ModalComp__signup {
+  display: flex;
+  flex-direction: column;
+}
+.ModalComp__signin {
+  display: flex;
+  flex-direction: column;
+}
+.app__loginContainer {
+  margin: 10px;
+}
+.app__loginbtn {
+  margin-right: 10px !important;
+}
+.app__logoutbtn {
+  margin: 10px !important;
+}
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imageupload__progress {
+  width: 100%;
+}
+.app__posts{
+align-items: center;
+}
+.imageUpload__openimage{
+  display:block;
+  max-width:90%;
+  max-height: 100%;
+  margin: 60px auto;
+  box-shadow:3px 5px 7px rgba(0,0,0,0.5);
+  border:3px solid white;
+  object-fit: contain;
 }
