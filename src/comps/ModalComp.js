@@ -78,7 +78,7 @@ function ModalComp({ open, setOpen, user, setUser, openSignIn,setOpenSignIn,open
   return (
     <div>
       {/* modal for sign up */}
-      <Modal open={open} onClose={() => setOpen(false)}>
+      <Modal open={open} onClose={() => setOpen(false)} >
         <div style={modalStyle} className={classes.paper}>
           {/* Insta Logo */}
           <center>
